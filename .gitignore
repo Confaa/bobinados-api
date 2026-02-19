@@ -1,0 +1,39 @@
+# Virtual environment
+.venv/
+env/
+venv/
+__pypackages__/
+
+# Byte-code files
+__pycache__/
+*.pyc
+# Other cache/compiled files
+.mypy_cache/
+.pytest_cache/
+htmlcov/
+.coverage*
+
+# Databases
+*.db
+*.sqlite
+/test.db # Example for a specific test database file
+
+# Environment files
+.env
+.flaskenv
+secrets.json # Example for a specific secrets file
+
+# OS and IDE-specific files
+.DS_Store # macOS
+.idea/ # JetBrains IDEs
+.vscode/ # VS Code
+Thumbs.db # Windows
+*~ # Temporary files
+
+# Build artifacts
+dist/
+build/
+site/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
